@@ -1,7 +1,6 @@
 // import Dashboard from './pages/dashboard';
 import './styles.scss';
 import Approutes from './routes'
-import Header from "./component/header";
 
 const App = () => {
   return (
