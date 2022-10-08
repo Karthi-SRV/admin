@@ -1,0 +1,11 @@
+.header-section {
+    border-bottom: 1px solid var(--grey-light3);
+    background-color: var(--primary-20);
+    .logo {
+        width: 40px;
+        height: 40px;
+        img {
+            object-fit: contain;
+        }
+    }
+}

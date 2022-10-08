@@ -1,0 +1,17 @@
+.details-section {
+    height: calc(100vh - 57px);
+    overflow: auto;
+    position: relative;
+    padding-bottom: 56px;
+    .ant-pagination {
+        background-color: var(--white);
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
